@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+}
+
+header {
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid #444444;
+}
+
+header p {
+    color: #cccccc;
+}
+
+main {
+    padding: 20px;
+    background-color: #2b2b2b;
+}
+
+.galeria {
+    width: 75%;
+    float: left;
+    background-color: #383838;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.coluna {
+    width: 30%;
+    margin: 1.5%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.imagem {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #666666;
+    border-radius: 10px;
+    background-color: #222222;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.imagem img {
+    display: block;
+    width: 100%;
+    height: 176px;
+}
+
+.imagem:hover {
+    border: 2px solid #aaaaaa;
+    box-shadow: 0 0 10px #111111;
+}
+
+.legenda {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background-color: #222222;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+
+.imagem:hover .legenda {
+    display: block;
+}
+
+aside {
+    width: 20%;
+    float: right;
+    background-color: #444444;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+aside p {
+    color: #dddddd;
+}
+
+.limpar {
+    clear: both;
+}
+
+footer {
+    clear: both;
+    background-color: #202020;
+    color: #cccccc;
+    text-align: center;
+    padding: 20px;
+    border-top: 3px solid #444444;
+}
