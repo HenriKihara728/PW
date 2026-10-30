@@ -1,13 +1,43 @@
+
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    background-color: #777b99;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
 .tabuleiro {
+    width: 400px;
+    height: 400px;
     display: grid;
-    width: 80%;
-    background-color: #333;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.branco {
+    background-color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.preto {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
