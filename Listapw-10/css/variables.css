@@ -1,0 +1,17 @@
+:root {
+
+    --cor-fundo: #ffdc7a;
+    --cor-borda: #c9b581;
+    --cor-texto: #e7ad60;
+
+    --fonte-principal: 'bebas kai';
+    --tamanho-titulo: 4rem;
+    --tamanho-descricao: 1rem;
+    --sombra-texto: 2px 2px 4px black;
+
+    --espacamento: 1rem;
+
+    --width-gregor: 75%;
+    --width-office: 25%;
+    --height-painel: 100vh;
+}

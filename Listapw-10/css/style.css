@@ -1,0 +1,81 @@
+@import url('variables.css');
+@font-face {
+    font-family: 'bebas kai';
+    src: url('/assets/fonts/BebasKai.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    color: var(--cor-texto);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: var(--height-painel);
+    border: 4px solid var(--cor-borda);
+}
+
+.gregor {
+    width: var(--width-gregor);
+    text-align: center;
+    padding: var(--espacamento);
+    background-image: url("/assets/img/Dawn_Office_Rep_Gregor_Full_Uptied.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.gregor h1 {
+    font-size: var(--tamanho-titulo);
+    margin: var(--espacamento);
+    margin-top: 50%;
+    text-shadow: var(--sombra-texto);
+}
+
+.gregor p {
+    font-size: var(--tamanho-descricao);
+    margin: var(--espacamento);
+    letter-spacing: 1px;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-shadow: var(--sombra-texto);
+}
+
+.office {
+    width: var(--width-office);
+    border-left: 4px solid var(--cor-borda);
+    text-align: center;
+    padding: var(--espacamento);
+    background-image: url(/assets/img/Manual_Default_background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.office img {
+    width: 175px;
+    height: 175px;
+    object-fit: contain;
+    margin: var(--espacamento);
+}
+
+.office h2 {
+    font-size: var(--tamanho-titulo);
+    margin: var(--espacamento);
+}
+
+.office p {
+    font-size: var(--tamanho-descricao);
+    margin: var(--espacamento);
+}
